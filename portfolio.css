@@ -135,3 +135,20 @@ footer {
         gap: 1rem;
     }
 }
+
+/* Add this to your portfolio.css */
+.button {
+    display: inline-block;
+    background-color: #007bff; /* Or any color you prefer */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px; /* Space between buttons */
+    margin-top: 10px; /* Space above buttons */
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* A darker shade on hover */
+}
